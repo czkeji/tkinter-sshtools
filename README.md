@@ -33,6 +33,7 @@
   程序根目录下 config文件
 # 程序模块
  pip install ttkbootstrap
+ 
  pip install paramiko
   
  
