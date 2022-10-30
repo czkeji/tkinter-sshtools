@@ -1,0 +1,864 @@
+************** 主机名：server01  IP地址：10.1.2.191/24 
+                
+************** CPU信息  ****************
+2022-10-29 17:27:39
+CPU 1分钟前到现在的负载平均值：0.05
+CPU 5分钟前到现在的负载平均值：0.03
+CPU 15分钟前到现在的负载平均值：0.05
+-----------------------------------------
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+stepping	: 9
+microcode	: 0xde
+cpu MHz		: 3599.999
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+bogomips	: 7199.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+stepping	: 9
+microcode	: 0xde
+cpu MHz		: 3599.999
+cache size	: 8192 KB
+physical id	: 2
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+bogomips	: 7199.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+                
+************** 硬盘信息 *****************
+已使用磁盘：5.5G
+已使用磁盘占比：11%
+Filesystem               Size  Used Avail Use% Mounted on
+devtmpfs                 2.9G     0  2.9G   0% /dev
+tmpfs                    2.9G     0  2.9G   0% /dev/shm
+tmpfs                    2.9G  8.9M  2.9G   1% /run
+tmpfs                    2.9G     0  2.9G   0% /sys/fs/cgroup
+/dev/mapper/centos-root   50G  5.5G   45G  11% /
+/dev/sda1               1014M  151M  864M  15% /boot
+/dev/mapper/centos-home   44G   33M   44G   1% /home
+tmpfs                    581M     0  581M   0% /run/user/0
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0  100G  0 disk 
+├─sda1            8:1    0    1G  0 part /boot
+└─sda2            8:2    0   99G  0 part 
+  ├─centos-root 253:0    0   50G  0 lvm  /
+  ├─centos-swap 253:1    0  5.9G  0 lvm  [SWAP]
+  └─centos-home 253:2    0 43.1G  0 lvm  /home
+sr0              11:0    1 1024M  0 rom  
+
+#
+# /etc/fstab
+# Created by anaconda on Mon Sep 27 15:48:41 2021
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/centos-root /                       xfs     defaults        0 0
+UUID=fa80e469-9325-4e30-b769-717941e83f65 /boot                   xfs     defaults        0 0
+/dev/mapper/centos-home /home                   xfs     defaults        0 0
+/dev/mapper/centos-swap swap                    swap    defaults        0 0
+                
+************** 内存信息*****************
+物理内存总量：5.7G
+已使用内存总量(操作系统)：562M
+剩余内存总量(操作系统)：4.2G
+              total        used        free      shared  buff/cache   available
+Mem:           5805         562        4291           8         951        4988
+Swap:          6015           0        6015
+                
+************** 网卡信息*****************
+10.1.2.191/24
+                
+                
+                
+                
+************** 主机名：server01  IP地址：10.1.2.191/24 
+                
+************** CPU信息  ****************
+2022-10-29 18:01:12
+CPU 1分钟前到现在的负载平均值：0.01
+CPU 5分钟前到现在的负载平均值：0.02
+CPU 15分钟前到现在的负载平均值：0.05
+-----------------------------------------
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+stepping	: 9
+microcode	: 0xde
+cpu MHz		: 3599.999
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+bogomips	: 7199.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+stepping	: 9
+microcode	: 0xde
+cpu MHz		: 3599.999
+cache size	: 8192 KB
+physical id	: 2
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+bogomips	: 7199.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+                
+************** 硬盘信息 *****************
+已使用磁盘：5.5G
+已使用磁盘占比：11%
+Filesystem               Size  Used Avail Use% Mounted on
+devtmpfs                 2.9G     0  2.9G   0% /dev
+tmpfs                    2.9G     0  2.9G   0% /dev/shm
+tmpfs                    2.9G  8.9M  2.9G   1% /run
+tmpfs                    2.9G     0  2.9G   0% /sys/fs/cgroup
+/dev/mapper/centos-root   50G  5.5G   45G  11% /
+/dev/sda1               1014M  151M  864M  15% /boot
+/dev/mapper/centos-home   44G   33M   44G   1% /home
+tmpfs                    581M     0  581M   0% /run/user/0
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0  100G  0 disk 
+├─sda1            8:1    0    1G  0 part /boot
+└─sda2            8:2    0   99G  0 part 
+  ├─centos-root 253:0    0   50G  0 lvm  /
+  ├─centos-swap 253:1    0  5.9G  0 lvm  [SWAP]
+  └─centos-home 253:2    0 43.1G  0 lvm  /home
+sr0              11:0    1 1024M  0 rom  
+
+#
+# /etc/fstab
+# Created by anaconda on Mon Sep 27 15:48:41 2021
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/centos-root /                       xfs     defaults        0 0
+UUID=fa80e469-9325-4e30-b769-717941e83f65 /boot                   xfs     defaults        0 0
+/dev/mapper/centos-home /home                   xfs     defaults        0 0
+/dev/mapper/centos-swap swap                    swap    defaults        0 0
+                
+************** 内存信息*****************
+物理内存总量：5.7G
+已使用内存总量(操作系统)：562M
+剩余内存总量(操作系统)：4.2G
+              total        used        free      shared  buff/cache   available
+Mem:           5805         561        4292           8         951        4989
+Swap:          6015           0        6015
+                
+************** 网卡信息*****************
+10.1.2.191/24
+                
+                
+                
+                
+************** 主机名：server01  IP地址：10.1.2.191/24 
+                
+************** CPU信息  ****************
+2022-10-29 19:47:17
+CPU 1分钟前到现在的负载平均值：0.00
+CPU 5分钟前到现在的负载平均值：0.01
+CPU 15分钟前到现在的负载平均值：0.05
+-----------------------------------------
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+stepping	: 9
+microcode	: 0xde
+cpu MHz		: 3599.999
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+bogomips	: 7199.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+stepping	: 9
+microcode	: 0xde
+cpu MHz		: 3599.999
+cache size	: 8192 KB
+physical id	: 2
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+bogomips	: 7199.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+                
+************** 硬盘信息 *****************
+已使用磁盘：5.5G
+已使用磁盘占比：11%
+Filesystem               Size  Used Avail Use% Mounted on
+devtmpfs                 2.9G     0  2.9G   0% /dev
+tmpfs                    2.9G     0  2.9G   0% /dev/shm
+tmpfs                    2.9G  8.9M  2.9G   1% /run
+tmpfs                    2.9G     0  2.9G   0% /sys/fs/cgroup
+/dev/mapper/centos-root   50G  5.5G   45G  11% /
+/dev/sda1               1014M  151M  864M  15% /boot
+/dev/mapper/centos-home   44G   33M   44G   1% /home
+tmpfs                    581M     0  581M   0% /run/user/0
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0  100G  0 disk 
+├─sda1            8:1    0    1G  0 part /boot
+└─sda2            8:2    0   99G  0 part 
+  ├─centos-root 253:0    0   50G  0 lvm  /
+  ├─centos-swap 253:1    0  5.9G  0 lvm  [SWAP]
+  └─centos-home 253:2    0 43.1G  0 lvm  /home
+sr0              11:0    1 1024M  0 rom  
+
+#
+# /etc/fstab
+# Created by anaconda on Mon Sep 27 15:48:41 2021
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/centos-root /                       xfs     defaults        0 0
+UUID=fa80e469-9325-4e30-b769-717941e83f65 /boot                   xfs     defaults        0 0
+/dev/mapper/centos-home /home                   xfs     defaults        0 0
+/dev/mapper/centos-swap swap                    swap    defaults        0 0
+                
+************** 内存信息*****************
+物理内存总量：5.7G
+已使用内存总量(操作系统)：561M
+剩余内存总量(操作系统)：4.2G
+              total        used        free      shared  buff/cache   available
+Mem:           5805         561        4292           8         951        4990
+Swap:          6015           0        6015
+                
+************** 网卡信息*****************
+10.1.2.191/24
+
+
+
+
+************** 主机名：server01  IP地址：10.1.2.191/24 
+                
+************** CPU信息  ****************
+2022-10-29 20:22:27
+CPU 1分钟前到现在的负载平均值：average:
+CPU 5分钟前到现在的负载平均值：0.02
+CPU 15分钟前到现在的负载平均值：0.02
+-----------------------------------------
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+stepping	: 9
+microcode	: 0xde
+cpu MHz		: 3599.999
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+bogomips	: 7199.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+stepping	: 9
+microcode	: 0xde
+cpu MHz		: 3599.999
+cache size	: 8192 KB
+physical id	: 2
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+bogomips	: 7199.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+                
+************** 硬盘信息 *****************
+已使用磁盘：5.5G
+已使用磁盘占比：11%
+Filesystem               Size  Used Avail Use% Mounted on
+devtmpfs                 2.9G     0  2.9G   0% /dev
+tmpfs                    2.9G     0  2.9G   0% /dev/shm
+tmpfs                    2.9G  8.9M  2.9G   1% /run
+tmpfs                    2.9G     0  2.9G   0% /sys/fs/cgroup
+/dev/mapper/centos-root   50G  5.5G   45G  11% /
+/dev/sda1               1014M  151M  864M  15% /boot
+/dev/mapper/centos-home   44G   33M   44G   1% /home
+tmpfs                    581M     0  581M   0% /run/user/0
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0  100G  0 disk 
+├─sda1            8:1    0    1G  0 part /boot
+└─sda2            8:2    0   99G  0 part 
+  ├─centos-root 253:0    0   50G  0 lvm  /
+  ├─centos-swap 253:1    0  5.9G  0 lvm  [SWAP]
+  └─centos-home 253:2    0 43.1G  0 lvm  /home
+sr0              11:0    1 1024M  0 rom  
+
+#
+# /etc/fstab
+# Created by anaconda on Mon Sep 27 15:48:41 2021
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/centos-root /                       xfs     defaults        0 0
+UUID=fa80e469-9325-4e30-b769-717941e83f65 /boot                   xfs     defaults        0 0
+/dev/mapper/centos-home /home                   xfs     defaults        0 0
+/dev/mapper/centos-swap swap                    swap    defaults        0 0
+                
+************** 内存信息*****************
+物理内存总量：5.7G
+已使用内存总量(操作系统)：560M
+剩余内存总量(操作系统)：4.2G
+              total        used        free      shared  buff/cache   available
+Mem:           5805         560        4293           8         951        4990
+Swap:          6015           0        6015
+                
+************** 网卡信息*****************
+10.1.2.191/24
+
+
+
+
+************** 主机名：server01  IP地址：10.1.2.191/24 
+                
+************** CPU信息  ****************
+2022-10-29 21:02:15
+CPU 1分钟前到现在的负载平均值：average:
+CPU 5分钟前到现在的负载平均值：0.06
+CPU 15分钟前到现在的负载平均值：0.03
+-----------------------------------------
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+stepping	: 9
+microcode	: 0xde
+cpu MHz		: 3599.999
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+bogomips	: 7199.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+stepping	: 9
+microcode	: 0xde
+cpu MHz		: 3599.999
+cache size	: 8192 KB
+physical id	: 2
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+bogomips	: 7199.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+                
+************** 硬盘信息 *****************
+已使用磁盘：5.5G
+已使用磁盘占比：11%
+Filesystem               Size  Used Avail Use% Mounted on
+devtmpfs                 2.9G     0  2.9G   0% /dev
+tmpfs                    2.9G     0  2.9G   0% /dev/shm
+tmpfs                    2.9G  8.9M  2.9G   1% /run
+tmpfs                    2.9G     0  2.9G   0% /sys/fs/cgroup
+/dev/mapper/centos-root   50G  5.5G   45G  11% /
+/dev/sda1               1014M  151M  864M  15% /boot
+/dev/mapper/centos-home   44G   33M   44G   1% /home
+tmpfs                    581M     0  581M   0% /run/user/0
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0  100G  0 disk 
+├─sda1            8:1    0    1G  0 part /boot
+└─sda2            8:2    0   99G  0 part 
+  ├─centos-root 253:0    0   50G  0 lvm  /
+  ├─centos-swap 253:1    0  5.9G  0 lvm  [SWAP]
+  └─centos-home 253:2    0 43.1G  0 lvm  /home
+sr0              11:0    1 1024M  0 rom  
+
+#
+# /etc/fstab
+# Created by anaconda on Mon Sep 27 15:48:41 2021
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/centos-root /                       xfs     defaults        0 0
+UUID=fa80e469-9325-4e30-b769-717941e83f65 /boot                   xfs     defaults        0 0
+/dev/mapper/centos-home /home                   xfs     defaults        0 0
+/dev/mapper/centos-swap swap                    swap    defaults        0 0
+                
+************** 内存信息*****************
+物理内存总量：5.7G
+已使用内存总量(操作系统)：560M
+剩余内存总量(操作系统)：4.2G
+              total        used        free      shared  buff/cache   available
+Mem:           5805         560        4293           8         951        4990
+Swap:          6015           0        6015
+                
+************** 网卡信息*****************
+10.1.2.191/24
+
+
+
+
+************** 主机名：server01  IP地址：10.1.2.191/24 
+                
+************** CPU信息  ****************
+2022-10-29 21:05:33
+CPU 1分钟前到现在的负载平均值：0.10
+CPU 5分钟前到现在的负载平均值：0.05
+CPU 15分钟前到现在的负载平均值：0.05
+-----------------------------------------
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+stepping	: 9
+microcode	: 0xde
+cpu MHz		: 3599.999
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+bogomips	: 7199.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+stepping	: 9
+microcode	: 0xde
+cpu MHz		: 3599.999
+cache size	: 8192 KB
+physical id	: 2
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+bogomips	: 7199.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+                
+************** 硬盘信息 *****************
+已使用磁盘：5.5G
+已使用磁盘占比：11%
+Filesystem               Size  Used Avail Use% Mounted on
+devtmpfs                 2.9G     0  2.9G   0% /dev
+tmpfs                    2.9G     0  2.9G   0% /dev/shm
+tmpfs                    2.9G  8.9M  2.9G   1% /run
+tmpfs                    2.9G     0  2.9G   0% /sys/fs/cgroup
+/dev/mapper/centos-root   50G  5.5G   45G  11% /
+/dev/sda1               1014M  151M  864M  15% /boot
+/dev/mapper/centos-home   44G   33M   44G   1% /home
+tmpfs                    581M     0  581M   0% /run/user/0
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0  100G  0 disk 
+├─sda1            8:1    0    1G  0 part /boot
+└─sda2            8:2    0   99G  0 part 
+  ├─centos-root 253:0    0   50G  0 lvm  /
+  ├─centos-swap 253:1    0  5.9G  0 lvm  [SWAP]
+  └─centos-home 253:2    0 43.1G  0 lvm  /home
+sr0              11:0    1 1024M  0 rom  
+
+#
+# /etc/fstab
+# Created by anaconda on Mon Sep 27 15:48:41 2021
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/centos-root /                       xfs     defaults        0 0
+UUID=fa80e469-9325-4e30-b769-717941e83f65 /boot                   xfs     defaults        0 0
+/dev/mapper/centos-home /home                   xfs     defaults        0 0
+/dev/mapper/centos-swap swap                    swap    defaults        0 0
+                
+************** 内存信息*****************
+物理内存总量：5.7G
+已使用内存总量(操作系统)：560M
+剩余内存总量(操作系统)：4.2G
+              total        used        free      shared  buff/cache   available
+Mem:           5805         560        4293           8         951        4991
+Swap:          6015           0        6015
+                
+************** 网卡信息*****************
+10.1.2.191/24
+
+
+
+
+************** 主机名：server01  IP地址：10.1.2.191/24 
+                
+************** CPU信息  ****************
+2022-10-29 21:06:25
+CPU 1分钟前到现在的负载平均值：0.04
+CPU 5分钟前到现在的负载平均值：0.04
+CPU 15分钟前到现在的负载平均值：0.05
+-----------------------------------------
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+stepping	: 9
+microcode	: 0xde
+cpu MHz		: 3599.999
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+bogomips	: 7199.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+stepping	: 9
+microcode	: 0xde
+cpu MHz		: 3599.999
+cache size	: 8192 KB
+physical id	: 2
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+bogomips	: 7199.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+                
+************** 硬盘信息 *****************
+已使用磁盘：5.5G
+已使用磁盘占比：11%
+Filesystem               Size  Used Avail Use% Mounted on
+devtmpfs                 2.9G     0  2.9G   0% /dev
+tmpfs                    2.9G     0  2.9G   0% /dev/shm
+tmpfs                    2.9G  8.9M  2.9G   1% /run
+tmpfs                    2.9G     0  2.9G   0% /sys/fs/cgroup
+/dev/mapper/centos-root   50G  5.5G   45G  11% /
+/dev/sda1               1014M  151M  864M  15% /boot
+/dev/mapper/centos-home   44G   33M   44G   1% /home
+tmpfs                    581M     0  581M   0% /run/user/0
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0  100G  0 disk 
+├─sda1            8:1    0    1G  0 part /boot
+└─sda2            8:2    0   99G  0 part 
+  ├─centos-root 253:0    0   50G  0 lvm  /
+  ├─centos-swap 253:1    0  5.9G  0 lvm  [SWAP]
+  └─centos-home 253:2    0 43.1G  0 lvm  /home
+sr0              11:0    1 1024M  0 rom  
+
+#
+# /etc/fstab
+# Created by anaconda on Mon Sep 27 15:48:41 2021
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/centos-root /                       xfs     defaults        0 0
+UUID=fa80e469-9325-4e30-b769-717941e83f65 /boot                   xfs     defaults        0 0
+/dev/mapper/centos-home /home                   xfs     defaults        0 0
+/dev/mapper/centos-swap swap                    swap    defaults        0 0
+                
+************** 内存信息*****************
+物理内存总量：5.7G
+已使用内存总量(操作系统)：560M
+剩余内存总量(操作系统)：4.2G
+              total        used        free      shared  buff/cache   available
+Mem:           5805         559        4293           8         951        4991
+Swap:          6015           0        6015
+                
+************** 网卡信息*****************
+10.1.2.191/24
+
+
+
+
+************** 主机名：server01  IP地址：10.1.2.191/24 
+                
+************** CPU信息  ****************
+2022-10-29 21:06:46
+CPU 1分钟前到现在的负载平均值：0.03
+CPU 5分钟前到现在的负载平均值：0.04
+CPU 15分钟前到现在的负载平均值：0.05
+-----------------------------------------
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+stepping	: 9
+microcode	: 0xde
+cpu MHz		: 3599.999
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+bogomips	: 7199.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+stepping	: 9
+microcode	: 0xde
+cpu MHz		: 3599.999
+cache size	: 8192 KB
+physical id	: 2
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+bogomips	: 7199.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+                
+************** 硬盘信息 *****************
+已使用磁盘：5.5G
+已使用磁盘占比：11%
+Filesystem               Size  Used Avail Use% Mounted on
+devtmpfs                 2.9G     0  2.9G   0% /dev
+tmpfs                    2.9G     0  2.9G   0% /dev/shm
+tmpfs                    2.9G  8.9M  2.9G   1% /run
+tmpfs                    2.9G     0  2.9G   0% /sys/fs/cgroup
+/dev/mapper/centos-root   50G  5.5G   45G  11% /
+/dev/sda1               1014M  151M  864M  15% /boot
+/dev/mapper/centos-home   44G   33M   44G   1% /home
+tmpfs                    581M     0  581M   0% /run/user/0
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0  100G  0 disk 
+├─sda1            8:1    0    1G  0 part /boot
+└─sda2            8:2    0   99G  0 part 
+  ├─centos-root 253:0    0   50G  0 lvm  /
+  ├─centos-swap 253:1    0  5.9G  0 lvm  [SWAP]
+  └─centos-home 253:2    0 43.1G  0 lvm  /home
+sr0              11:0    1 1024M  0 rom  
+
+#
+# /etc/fstab
+# Created by anaconda on Mon Sep 27 15:48:41 2021
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/centos-root /                       xfs     defaults        0 0
+UUID=fa80e469-9325-4e30-b769-717941e83f65 /boot                   xfs     defaults        0 0
+/dev/mapper/centos-home /home                   xfs     defaults        0 0
+/dev/mapper/centos-swap swap                    swap    defaults        0 0
+                
+************** 内存信息*****************
+物理内存总量：5.7G
+已使用内存总量(操作系统)：559M
+剩余内存总量(操作系统)：4.2G
+              total        used        free      shared  buff/cache   available
+Mem:           5805         560        4293           8         951        4991
+Swap:          6015           0        6015
+                
+************** 网卡信息*****************
+10.1.2.191/24
+
+
+
+
