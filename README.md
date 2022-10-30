@@ -23,7 +23,7 @@
  Python setup.py install
 2.查看导入的模块
   pip list
-  
+   
 
 # 程序介绍
  #自定义命令，及命令文件路径
@@ -31,5 +31,8 @@
  #自定义报告输出路径：默认文件名称‘report.txt’
  ## 默认配置路径
   程序根目录下 config文件
+# 程序模块
+ pip install ttkbootstrap
+ pip install paramiko
   
  
