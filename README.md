@@ -1,6 +1,8 @@
 # tkinter-sshtools
 
 # 基于tkinter开发的Linux远程批量执行命令工具
+# 可执行文件
+  Linux远程执行工具.zip
 
 # 程序主界面
 ![image](https://user-images.githubusercontent.com/27765890/198868239-d4e85d87-7581-4d27-8511-7f288676eca5.png)
@@ -35,5 +37,11 @@
  pip install ttkbootstrap
  
  pip install paramiko
-  
+ # 程序打包
+pyi-makespec.exe ./main1.py
+pyinstall main1.spec
+
+# 关闭控制台显示
+编辑main1.spec文件修改如下：
+ console=False
  
